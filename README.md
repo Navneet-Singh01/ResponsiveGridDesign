@@ -12,4 +12,4 @@ You can view the project by opening the `index.html` file in your web browser. Y
 
 ## Author
 
-[Navneet Singh]
+Navneet Singh
