@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 5px solid darkmagenta;
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 80px auto 80px;
+    height: 100vh;
+}
+
+header{
+    background-color: #AF3B6E;
+    grid-column: 1/4;
+}
+
+main{
+    background-color: #C492B1;
+}
+
+.left-sidebar{
+    background-color: #BCE7FD;
+}
+
+.right-sidebar{
+    background-color: #BCE7FD;
+}
+
+footer{
+    background-color:  #AF3B6E;
+    grid-column: 1/4;
+}
+
+@media (max-width: 500px){
+     .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 80px auto 80px 80px;
+    }
+     aside,main{
+        grid-column: 1/4;
+    }
+}
+header,.left-sidebar,main,.right-sidebar,footer{/*formating font*/
+    font-size: 20px; 
+    font-weight: 800;
+
+/* Way1:using grid to center text both horizontally and vertically */
+    /* display: grid;
+    place-items: center; */
+
+/* Way2:using flex to center text both horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
