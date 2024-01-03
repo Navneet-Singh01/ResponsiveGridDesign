@@ -10,6 +10,16 @@ This project showcases a basic web page layout. It includes a header, left sideb
 
 You can view the project by opening the `index.html` file in your web browser. You can also clone the repository to your local machine for further exploration or modification.
 
+## Screenshots
+
+### 1. Screen width 
+
+![Screenshot_1](./screenshots/screenshot-1.png)
+
+### 2. Screen width less and equal to 500px 
+
+![Screenshot_1](./screenshots/screenshot-2.png)
+
 ## Author
 
 Navneet Singh
